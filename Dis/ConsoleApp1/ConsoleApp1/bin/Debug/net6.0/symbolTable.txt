@@ -1,0 +1,6 @@
+label0	0006
+label1	001C
+label2	0045
+label3	0028
+label4	0030
+label5	0033

@@ -1,0 +1,21 @@
+          halail    START               000000
+000000              LDA       label0    000006
+000003              DIV       label1    24001C
+000006    label0    BYTE      X'05'    000005
+000009              STCH      label2    540045
+00000C              RESW       1
+00000F              BYTE      X'07'    000007
+000010              STCH      label3,X  548028
+00001C    label1    LDA       label2    000045
+00001F              STCH      label4    540030
+000022              RESW       1
+000025              STCH      label5    540033
+000028    label3    RESB       8
+000030    label4    WORD       9        000009
+000033    label5    RESW       1
+000037              DIV       #9        250009
+00003A              FLOAT               C0002F
+000042              LDA       label2    000045
+000045    label2    HIO                 F42345
+000048              RESB       8
+                    END       000000
